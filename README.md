@@ -1,7 +1,9 @@
 # Prete-moi-tes-mangas
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)  [![forthebadge](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=Symfony&logoColor=white)](http://forthebadge.com)
 ## Description
-Ceci est un projet de fin d'études dans le cadre d'une formation intensive de Développeur Web Fullstack
+Ceci est un projet de fin d'études dans le cadre d'une formation intensive de Développeur Web Fullstack.
+
+**Le projet est encore en cours de développement.**
 
 ### MVP
 Il s'agit d'un projet de prêt de mangas entre particuliers, avec différentes fonctionalités (pour l'instant c'est un MVP) :
