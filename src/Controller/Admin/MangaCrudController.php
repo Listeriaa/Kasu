@@ -78,6 +78,7 @@ class MangaCrudController extends AbstractCrudController
         return $crud
             ->setPageTitle('new', 'Ajouter un manga')
             ->setPageTitle('index', 'Mes mangas')
+            ->setPageTitle('detail', fn (Manga $manga) => sprintf($manga->getTitle()))
             ->setSearchFields(['title', 'author']);
     }
     public function configureFilters(Filters $filters): Filters
@@ -100,6 +101,7 @@ class MangaCrudController extends AbstractCrudController
         $entityInstance->setSynopsis($result["results"][0]["synopsis"]);
         $entityManager->persist($entityInstance);
         $entityManager->flush();
+        
         //Then we create as many entries in the volumes table as the number of volumes sent back by the API
         $manga = $this->mangaRepository->findOneBy(['title' => $entityInstance->getTitle()]);
         $this->volumesCreation->createAll($manga->getId());
