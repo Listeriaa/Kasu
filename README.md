@@ -7,7 +7,7 @@ Nous étions 5 étudiants sur ce projet de l'idée au déploiement.
 
 J'étais en charge plus spécifiquement du back-end, en binôme avec une autre étudiante.
 
-Le back-office est hébergé sur O2Switch : [BACK-OFFICE](admin.kasu.laetitia-dev.com)
+Le back-office est hébergé sur O2Switch : [BACK-OFFICE](https://admin.kasu.laetitia-dev.com)
 
 Le front est hébergé sur surge : [KASU](https://kasu.surge.sh)
 
