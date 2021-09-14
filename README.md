@@ -11,7 +11,10 @@ Le back-office est hébergé sur O2Switch : [BACK-OFFICE](https://admin.kasu.lae
 
 Le front est hébergé sur surge : [KASU](https://kasu.surge.sh)
 
+La démo du projet est disponible sur YouTube pour découvrir toutes les fonctionnalités. :[Demo](https://m.youtube.com/watch?t=4693&v=1qlGlKTmlxk&feature=youtu.be) 
+
 ### MVP
+
 Il s'agit d'un projet de prêt de mangas entre particuliers, avec différentes fonctionalités (pour l'instant c'est un MVP) :
 - Possibilité de s'inscrire ou se connecter, de modifier son profil utilisateur et sa collection de mangas (les mangas et les tomes associés)
 - Possibilité de faire une recherche par code postal, sur un rayon de 30kms et de voir les mangas et tomes disponibles
